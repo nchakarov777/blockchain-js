@@ -1,0 +1,33 @@
+{
+  "name": "blockchain-js",
+  "version": "1.0.0",
+  "description": "Simple blockchain implementation",
+  "main": "index.js",
+  "dependencies": {
+    "crypto-js": "^3.1.9-1"
+  },
+  "devDependencies": {
+    "typescript": "^3.1.3",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "test": "test "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikichak/blockchain-js.git"
+  },
+  "keywords": [
+    "blockchain",
+    "javascript",
+    "etherium",
+    "bitcoin"
+  ],
+  "author": "NikitoChak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikichak/blockchain-js/issues"
+  },
+  "homepage": "https://github.com/nikichak/blockchain-js#readme"
+}
