@@ -1,6 +1,6 @@
 import SHA256 from 'crypto-js/sha256';
 
-class Block {
+export class Block {
     index: number;
     timestamp: string;
     data: any;
@@ -15,10 +15,12 @@ class Block {
         this.previousHash = "0";
         this.hash = this.calculateHash();
         this.nonce = 0;
+        console.log('initialized');
     }
 
     calculateHash(): string {
         console.log(SHA256);
+        console.log('in the game bby');
         return "";
     }
 
@@ -31,5 +33,3 @@ class Block {
     let firstBLock = new Block("none", {});
 })();
 
-
-export = Block;

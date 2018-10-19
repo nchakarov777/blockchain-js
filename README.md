@@ -1,2 +1,2 @@
 # blockchain-js
-A blockchain structure implemented with JS.
+A blockchain structure implemented with TypeScript.
